@@ -1,0 +1,30 @@
+
+{
+  "nombreJuego": "Slide Puzzle",
+  "movimientosMezcla": 30,
+  "dificultades": [
+    {
+      "id": "facil",
+      "nombre": "Fácil",
+      "filas": 3,
+      "columnas": 3,
+      "cantidadFichas": 8,
+      "espaciosVacios": 1
+    },
+    {
+      "id": "dificil",
+      "nombre": "Difícil",
+      "filas": 4,
+      "columnas": 4,
+      "cantidadFichas": 15,
+      "espaciosVacios": 1
+    }
+  ],
+  "imagenesDisponibles": [
+    {
+      "id": "numeros",
+      "nombre": "Fichas numeradas",
+      "tipo": "numerico"
+    }
+  ]
+}
