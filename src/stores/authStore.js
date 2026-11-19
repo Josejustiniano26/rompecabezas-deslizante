@@ -18,7 +18,6 @@ export const useAuthStore = defineStore('auth', () => {
       'Jugador'
   })
 
-  // Restaurar la sesión y escuchar cambios
   function inicializar() {
     if (!promesaInicializacion) {
       promesaInicializacion = (async () => {
@@ -66,7 +65,6 @@ export const useAuthStore = defineStore('auth', () => {
     }
   }
 
-  // Entrar con correo y contraseña
   async function iniciarSesion(correo, clave) {
     const { data, error } =
       await supabase.auth.signInWithPassword({
